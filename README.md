@@ -1,6 +1,7 @@
 ![](https://raw.githubusercontent.com/frogobox/.github/main/docs/image/banner-frogo-build-src.png?raw=true)
 
 ## frogo-build-src
+[![](https://jitpack.io/v/frogobox/frogo-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-build-src)
 
 - Library for contant data buildSrc
 - Library for calling contant variable for build.gradle.kts
