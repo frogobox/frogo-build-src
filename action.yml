@@ -1,6 +1,6 @@
-name: 'Easy Kotlin Lib Jar'
-description: 'Easy Sample Kotlin Library'
-author: 'Muhammad Faisal Amir'
+name: 'frogo-build-src'
+description: 'buildSrc Library for build.gradle.kts setup'
+author: 'Frogobox'
 branding:
   icon: archive
   color: green

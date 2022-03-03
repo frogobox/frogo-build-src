@@ -13,19 +13,19 @@
 
 object ProjectSetting {
 
-    const val PROJECT_NAME = "Easy Kotlin Lib Jar"
+    const val PROJECT_NAME = "Frogo Build Src"
 
     // -----------------------------------------------------------------------------------------------------------------
 
     const val LIBRARY_DOMAIN = "com"
     const val LIBRARY_CREATOR_NAME = "frogobox"
-    const val LIBRARY_NAME = "easykotlinlibjar"
+    const val LIBRARY_NAME = "frogobuildsrc"
 
     // -----------------------------------------------------------------------------------------------------------------
 
     const val VERSION_MAJOR = 1
     const val VERSION_MINOR = 0
-    const val VERSION_PATCH = 6
+    const val VERSION_PATCH = 0
 
     // -----------------------------------------------------------------------------------------------------------------
 

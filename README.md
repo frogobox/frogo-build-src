@@ -1,8 +1,8 @@
-## easy-kotlin-lib-jar
-[![](https://jitpack.io/v/amirisback/easy-kotlin-lib-jar.svg?style=flat-square)](https://jitpack.io/#amirisback/easy-kotlin-lib-jar)
+## frogo-build-src
+
 - Repository Sample For Native Kotlin Library <br>
-- License [Click Here](https://raw.githubusercontent.com/amirisback/easy-kotlin-lib-jar/master/LICENSE)
-- Privacy Policy [Click Here](https://raw.githubusercontent.com/amirisback/easy-kotlin-lib-jar/master/PRIVACY-POLICY.md)
+- License [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/LICENSE)
+- Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/PRIVACY-POLICY.md)
 
 Repository for testing build from jitpack.io
 - Red : Failed
@@ -11,7 +11,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.6
+    $version_release = 1.0.0
 
 What's New??
 
@@ -34,12 +34,12 @@ What's New??
 
 ### For build.gradle (Groovy)
     dependencies {
-        implementation 'com.github.amirisback:easy-kotlin-lib-jar:1.0.6'
+        implementation 'com.github.frogobox:frogo-build-src:1.0.0'
     }
 
 ### For build.gradle.kts (Kotlin DSL)
     dependencies {
-        implementation("com.github.amirisback:easy-kotlin-lib-jar:1.0.6")
+        implementation("com.github.frogobox:frogo-build-src:1.0.0")
     }
 
 

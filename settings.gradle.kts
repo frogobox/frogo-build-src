@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "easy-kotlin-lib-jar"
+rootProject.name = "frogo-build-src"
