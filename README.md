@@ -2,7 +2,8 @@
 
 ## frogo-build-src
 
-- Repository Sample For Native Kotlin Library <br>
+- Library for contant data buildSrc
+- Library for calling contant variable for build.gradle.kts
 - License [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/LICENSE)
 - Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/PRIVACY-POLICY.md)
 
