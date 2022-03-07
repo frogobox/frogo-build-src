@@ -1,6 +1,10 @@
-## frogo-build-src
+![](https://raw.githubusercontent.com/frogobox/.github/main/docs/image/banner-frogo-build-src.png?raw=true)
 
-- Repository Sample For Native Kotlin Library <br>
+## frogo-build-src
+[![](https://jitpack.io/v/frogobox/frogo-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-build-src)
+
+- Library for contant data buildSrc
+- Library for calling contant variable for build.gradle.kts
 - License [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/LICENSE)
 - Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/PRIVACY-POLICY.md)
 
@@ -21,24 +25,41 @@ What's New??
 
 ### Step 1. Add the JitPack repository to your build file (build.gradle : Project)
 
-    Add it in your root build.gradle at the end of repositories:
+#### <Option 1> Groovy Gradle
 
-    	allprojects {
-    		repositories {
-    			...
-    			maven { url 'https://jitpack.io' }
-    		}
-    	}
+    // Add it in your root build.gradle at the end of repositories:
+
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+        }
+    }
+
+#### <Option 2> Kotlin DSL Gradle
+
+```kotlin
+// Add it in your root build.gradle.kts at the end of repositories:
+
+allprojects {
+    repositories {
+        ...
+        maven { url = uri("https://jitpack.io") }
+    }
+}
+```
 
 ### Step 2. Add the dependency (build.gradle : Module)
 
 ### For build.gradle (Groovy)
     dependencies {
+        // library frogo-build-src
         implementation 'com.github.frogobox:frogo-build-src:1.0.0'
     }
 
 ### For build.gradle.kts (Kotlin DSL)
     dependencies {
+        // library frogo-build-src
         implementation("com.github.frogobox:frogo-build-src:1.0.0")
     }
 
