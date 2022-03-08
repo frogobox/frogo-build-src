@@ -12,10 +12,11 @@
  */
 
 object Ktor {
-    const val ktorVersion = "1.5.2"
-    const val core = "io.ktor:ktor-client-core:$ktorVersion"
-    const val clientSerialization = "io.ktor:ktor-client-serialization:$ktorVersion"
-    const val android = "io.ktor:ktor-client-android:$ktorVersion"
+    const val version = "1.5.2"
 
-    const val ktorClientMock = "io.ktor:ktor-client-mock:$ktorVersion"
+    const val clientCore = "io.ktor:ktor-client-core:$version"
+    const val clientSerialization = "io.ktor:ktor-client-serialization:$version"
+    const val clientAndroid = "io.ktor:ktor-client-android:$version"
+
+    const val clientMock = "io.ktor:ktor-client-mock:$version"
 }

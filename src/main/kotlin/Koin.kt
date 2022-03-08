@@ -13,6 +13,12 @@
 
 object Koin {
 
-    const val koinVersion = "3.1.5"
+    const val version = "3.1.5"
+
+    const val core = "io.insert-koin:koin-core:$version" // Koin core features
+    const val android = "io.insert-koin:koin-android:$version" // Koin main features for Android (Scope,ViewModel ...)
+    const val androidCompat = "io.insert-koin:koin-android-compat:$version" // Koin Java Compatibility
+    const val androidxWorkManager = "io.insert-koin:koin-androidx-workmanager:$version" // Koin for Jetpack WorkManager
+    const val androidxCompose = "io.insert-koin:koin-androidx-compose:$version" // Koin for Jetpack Compose
 
 }

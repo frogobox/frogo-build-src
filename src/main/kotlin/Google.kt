@@ -17,6 +17,6 @@ object Google {
     const val material = "com.google.android.material:material:$materialVersion"
 
     const val gsonVersion = "2.9.0"
-    const val gson = ""
+    const val gson = "com.google.code.gson:gson:$gsonVersion"
 
 }

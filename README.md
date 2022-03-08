@@ -23,46 +23,25 @@ What's New??
 
 ## Download this project
 
-### Step 1. Add the JitPack repository to your build file (build.gradle : Project)
-
-#### <Option 1> Groovy Gradle
-
-    // Add it in your root build.gradle at the end of repositories:
-
-    allprojects {
-        repositories {
-            ...
-            maven { url 'https://jitpack.io' }
-        }
-    }
-
-#### <Option 2> Kotlin DSL Gradle
+### Step 1. Add the JitPack repository to your build file (build.gradle.kts : BuildSrc)
 
 ```kotlin
-// Add it in your root build.gradle.kts at the end of repositories:
-
-allprojects {
-    repositories {
-        ...
-        maven { url = uri("https://jitpack.io") }
-    }
+repositories {
+    ...
+    maven { url = uri("https://jitpack.io") }
 }
 ```
 
-### Step 2. Add the dependency (build.gradle : Module)
+### Step 2. Add the dependency (build.gradle.kts : BuildSrc)
 
-### For build.gradle (Groovy)
-    dependencies {
-        // library frogo-build-src
-        implementation 'com.github.frogobox:frogo-build-src:1.0.0'
-    }
+```kotlin
+dependencies {
+    // library frogo-build-src
+    implementation("com.github.frogobox:frogo-build-src:1.0.0")
+}
+```
 
-### For build.gradle.kts (Kotlin DSL)
-    dependencies {
-        // library frogo-build-src
-        implementation("com.github.frogobox:frogo-build-src:1.0.0")
-    }
-
+### Step 3. Usage 
 
 ## Screenshoot
 ### Android Studio
@@ -87,9 +66,6 @@ Name Of Contribute
 - Waiting List
 
 Waiting for your contribute
-
-## Insipiration
-- color-console ( [Nazmul Idris](https://github.com/nazmulidris) - [Project](https://github.com/nazmulidris/color-console) )
 
 ## Attention !!!
 - Please enjoy and don't forget fork and give a star

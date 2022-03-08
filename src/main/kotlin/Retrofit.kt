@@ -12,6 +12,11 @@
  */
 
 object Retrofit {
-    const val retrofitVersion = "2.9.0"
+    const val version = "2.9.0"
+
+    const val retrofit = "com.squareup.retrofit2:retrofit:$version"
+    const val converterGson = "com.squareup.retrofit2:converter-gson:$version"
+    const val adapterRxJava = "com.squareup.retrofit2:adapter-rxjava:$version"
+    const val adapterRxJava2 = "com.squareup.retrofit2:adapter-rxjava2:$version"
 
 }

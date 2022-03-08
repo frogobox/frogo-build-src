@@ -11,8 +11,9 @@
  *
  */
 
-object RxJava {
+object Interceptor {
 
-    const val version = ""
+    const val okhttp = "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
+    const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:4.9.3"
 
 }
