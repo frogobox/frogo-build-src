@@ -1,10 +1,11 @@
 ![](https://raw.githubusercontent.com/frogobox/.github/main/docs/image/banner-frogo-build-src.png?raw=true)
 
-## frogo-build-src
+## About This Project
 [![](https://jitpack.io/v/frogobox/frogo-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-build-src)
 
 - Library for contant data buildSrc
 - Library for calling contant variable for build.gradle.kts
+- Develop using IntelliJ IDEA
 - License [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/LICENSE)
 - Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/PRIVACY-POLICY.md)
 
@@ -15,7 +16,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.2
+    $version_release = 1.0.3
 
 What's New??
 
@@ -37,67 +38,30 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.2")
+    implementation("com.github.frogobox:frogo-build-src:1.0.3")
 }
 ```
 
-### Step 3. Usage 
-
-Add on your dependencies build.gradle.kts
-
-#### Frogo Library
+### Step 3. Usage (Add on your dependencies build.gradle.kts)
 
 ```kotlin
-implementation(Frogo.recyclerView)
-implementation(Frogo.admob)
-implementation(Frogo.log)
-implementation(Frogo.notification)
-implementation(Frogo.sdk)
-implementation(Frogo.ui)
-implementation(Frogo.consumeApi)
+dependencies {
+    // List All Frogo Library
+    implementation(Frogo.sdk)
+    implementation(Frogo.ui)
+    implementation(Frogo.consumeApi)
+    implementation(Frogo.recyclerView)
+    implementation(Frogo.admob)
+    implementation(Frogo.log)
+    implementation(Frogo.notification)
+}
 ```
 
-#### Androidx Library
+### Screen Shoot (Step 2. build.gradle.kts buildSrc)
+![](docs/image/ss_step_2.png?raw=true)
 
-```kotlin
-```
-
-#### Google Library
-
-```kotlin
-```
-
-#### JetBrains Library
-
-```kotlin
-```
-
-#### Koin Library
-```kotlin
-implementation(Koin.core)
-implementation(Koin.android)
-implementation(Koin.androidCompat)
-implementation(Koin.androidxWorkManager)
-implementation(Koin.androidxCompose)
-```
-
-#### Retrofit Library
-```kotlin
-```
-
-#### ReactiveX Library
-```kotlin
-```
-
-#### Util Library
-```kotlin
-implementation(Util.glide)
-kapt(Util.glideCompiler)
-```
-
-## Screenshoot
-![ScreentShoot](docs/image/ss_usage.png?raw=true)
-
+### Screen Shoot (Step 3. build.gradle.kts app)
+![](docs/image/ss_step_3.png?raw=true)
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
