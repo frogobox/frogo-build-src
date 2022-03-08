@@ -17,7 +17,7 @@ object Frogo {
     const val recyclerView = "com.github.amirisback:frogo-recycler-view:$recyclerViewVersion"
 
     const val admobVersion = "4.1.8"
-    const val admob = "com.github.amirisback:frogo-admob-version:$admobVersion"
+    const val admob = "com.github.amirisback:frogo-admob:$admobVersion"
 
     const val logVersion = "2.0.8"
     const val log = "com.github.amirisback:frogo-log:$logVersion"
