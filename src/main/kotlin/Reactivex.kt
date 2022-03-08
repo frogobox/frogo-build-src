@@ -1,16 +1,19 @@
 /*
- * Created by faisalamir on 07/03/22
+ * Created by faisalamir on 08/03/22
  * frogo-build-src
  * -----------------------------------------
  * Name     : Muhammad Faisal Amir
  * E-mail   : faisalamircs@gmail.com
  * Github   : github.com/amirisback
  * -----------------------------------------
- * Copyright (C) 2022 FrogoBox Inc.
+ * Copyright (C) 2022 FrogoBox Inc.      
  * All rights reserved
  *
  */
 
-object Kotlin {
-    const val version = "1.6.10"
+object Reactivex {
+
+    const val rxJava = "io.reactivex.rxjava2:rxjava:2.2.21"
+    const val rxAndroid = "io.reactivex.rxjava2:rxandroid:2.1.1"
+
 }

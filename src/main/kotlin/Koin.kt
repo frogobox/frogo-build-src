@@ -12,7 +12,6 @@
  */
 
 object Koin {
-
     const val version = "3.1.5"
 
     const val core = "io.insert-koin:koin-core:$version" // Koin core features
@@ -20,5 +19,4 @@ object Koin {
     const val androidCompat = "io.insert-koin:koin-android-compat:$version" // Koin Java Compatibility
     const val androidxWorkManager = "io.insert-koin:koin-androidx-workmanager:$version" // Koin for Jetpack WorkManager
     const val androidxCompose = "io.insert-koin:koin-androidx-compose:$version" // Koin for Jetpack Compose
-
 }

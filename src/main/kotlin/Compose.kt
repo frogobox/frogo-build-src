@@ -34,6 +34,6 @@ object ComposeTest {
 
 object ComposeMultiPlatform {
 
-    const val composeMultiPlatformVersion = "1.1.0"
+    const val version = "1.1.0"
 
 }

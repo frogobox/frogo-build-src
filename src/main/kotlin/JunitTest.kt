@@ -11,10 +11,7 @@
  *
  */
 
-object SqlDelight {
-    const val version = "1.5.1"
-    const val runtime = "com.squareup.sqldelight:runtime:${version}"
-    const val androidDriver = "com.squareup.sqldelight:android-driver:${version}"
-
-    const val plugin = "com.squareup.sqldelight"
+object JunitTest {
+    const val version = "4.13.2"
+    const val junit4 = "junit:junit:$version"
 }
