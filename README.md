@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.0
+    $version_release = 1.0.1
 
 What's New??
 
@@ -37,20 +37,43 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.0")
+    implementation("com.github.frogobox:frogo-build-src:1.0.1")
 }
 ```
 
 ### Step 3. Usage 
 
+Add on your dependencies build.gradle.kts
+
+#### Frogo Library
+
+```kotlin
+implementation(Frogo.recyclerView)
+implementation(Frogo.admob)
+implementation(Frogo.log)
+implementation(Frogo.notification)
+implementation(Frogo.sdk)
+implementation(Frogo.ui)
+implementation(Frogo.consumeApi)
+```
+
+#### Koin Library
+```kotlin
+implementation(Koin.core)
+implementation(Koin.android)
+implementation(Koin.androidCompat)
+implementation(Koin.androidxWorkManager)
+implementation(Koin.androidxCompose)
+```
+
+#### Glide Library
+```kotlin
+implementation(Util.glide)
+kapt(Util.glideCompiler)
+```
+
 ## Screenshoot
-### Android Studio
-
-![ScreentShoot](docs/image/ss_android.png?raw=true)
-
-### Intellij IDEA
-
-![ScreentShoot](docs/image/ss_intellij.png?raw=true)
+![ScreentShoot](docs/image/ss_usage.png?raw=true)
 
 
 ## Colaborator
