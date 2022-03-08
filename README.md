@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.1
+    $version_release = 1.0.2
 
 What's New??
 
@@ -37,7 +37,7 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.1")
+    implementation("com.github.frogobox:frogo-build-src:1.0.2")
 }
 ```
 
@@ -57,6 +57,21 @@ implementation(Frogo.ui)
 implementation(Frogo.consumeApi)
 ```
 
+#### Androidx Library
+
+```kotlin
+```
+
+#### Google Library
+
+```kotlin
+```
+
+#### JetBrains Library
+
+```kotlin
+```
+
 #### Koin Library
 ```kotlin
 implementation(Koin.core)
@@ -66,7 +81,15 @@ implementation(Koin.androidxWorkManager)
 implementation(Koin.androidxCompose)
 ```
 
-#### Glide Library
+#### Retrofit Library
+```kotlin
+```
+
+#### ReactiveX Library
+```kotlin
+```
+
+#### Util Library
 ```kotlin
 implementation(Util.glide)
 kapt(Util.glideCompiler)
