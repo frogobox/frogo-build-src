@@ -17,4 +17,6 @@ object Util {
     const val glide = "com.github.bumptech.glide:glide:$glideVersion"
     const val glideCompiler = "com.github.bumptech.glide:compiler:$glideVersion"
 
+    const val makeramenRoundImage = "com.makeramen:roundedimageview:2.3.0"
+
 }
