@@ -12,20 +12,27 @@
  */
 
 object Square {
-    const val retrofitVersion = "2.9.0"
 
-    const val retrofit = "com.squareup.retrofit2:retrofit:$retrofitVersion"
-    const val converterGson = "com.squareup.retrofit2:converter-gson:$retrofitVersion"
-    const val adapterRxJava = "com.squareup.retrofit2:adapter-rxjava:$retrofitVersion"
-    const val adapterRxJava2 = "com.squareup.retrofit2:adapter-rxjava2:$retrofitVersion"
+    object Retrofit2 {
+
+        const val version = "2.9.0"
+        const val retrofit = "com.squareup.retrofit2:retrofit:$version"
+        const val converterGson = "com.squareup.retrofit2:converter-gson:$version"
+        const val converterJackson = "com.squareup.retrofit2:converter-jackson:$version"
+        const val converterMoshi = "com.squareup.retrofit2:converter-moshi:$version"
+        const val converterProtobuf = "com.squareup.retrofit2:converter-protobuf:$version"
+        const val converterWire = "com.squareup.retrofit2:converter-wire:$version"
+        const val converterSimpleXml = "com.squareup.retrofit2:converter-simplexml:$version"
+        const val converterJAXB = "com.squareup.retrofit2:converter-jaxb:$version"
+        const val Scalars = "com.squareup.retrofit2:converter-scalars:$version"
+
+        const val adapterRxJava = "com.squareup.retrofit2:adapter-rxjava:$version"
+        const val adapterRxJava2 = "com.squareup.retrofit2:adapter-rxjava2:$version"
+        const val adapterRxJava3 = "com.squareup.retrofit2:adapter-rxjava3:$version"
+
+    }
 
     const val okhttp = "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
     const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:4.9.3"
-
-    const val sqlDelightVersion = "1.5.1"
-    const val sqlDelightRuntime = "com.squareup.sqldelight:runtime:$sqlDelightVersion"
-    const val sqlDelightAndroidDriver = "com.squareup.sqldelight:android-driver:$sqlDelightVersion"
-
-    const val pluginSqlDelight = "com.squareup.sqldelight"
 
 }
