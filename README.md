@@ -6,6 +6,7 @@
 - Library for contant data buildSrc
 - Library for calling contant variable for build.gradle.kts
 - Develop using IntelliJ IDEA
+- The requirement must already be using buildSrc
 - License [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/LICENSE)
 - Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/PRIVACY-POLICY.md)
 
@@ -16,7 +17,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.3
+    $version_release = 1.0.4
 
 What's New??
 
@@ -38,11 +39,13 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.3")
+    implementation("com.github.frogobox:frogo-build-src:1.0.4")
 }
 ```
 
 ### Step 3. Usage (Add on your dependencies build.gradle.kts)
+
+#### Version planted
 
 ```kotlin
 dependencies {
@@ -57,11 +60,37 @@ dependencies {
 }
 ```
 
+#### Custom Version
+```kotlin
+dependencies {
+    // List All Frogo Library
+    implementation(Frogo.sdk(""))
+    implementation(Frogo.ui(""))
+    implementation(Frogo.consumeApi(""))
+    implementation(Frogo.recyclerView(""))
+    implementation(Frogo.admob(""))
+    implementation(Frogo.log(""))
+    implementation(Frogo.notification(""))
+}
+```
+
 ### Screen Shoot (Step 2. build.gradle.kts buildSrc)
 ![](docs/image/ss_step_2.png?raw=true)
 
 ### Screen Shoot (Step 3. build.gradle.kts app)
 ![](docs/image/ss_step_3.png?raw=true)
+
+### Detail Version
+```kotlin
+const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
+const val admobVersion = "4.1.9" // https://github.com/amirisback/frogo-admob
+const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
+const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
+
+const val sdkVersion = "0.0.1-beta08" // https://github.com/frogobox/frogo-sdk
+const val uiVersion = "0.0.1-beta04" // https://github.com/frogobox/frogo-ui
+const val consumeApiVersion = "2.0.1" // https://github.com/frogobox/frogo-consume-api
+```
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
