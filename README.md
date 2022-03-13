@@ -2,6 +2,8 @@
 
 ## About This Project
 [![](https://jitpack.io/v/frogobox/frogo-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-build-src)
+[![Scan with Detekt](https://github.com/frogobox/frogo-build-src/actions/workflows/detekt-analysis.yml/badge.svg)](https://github.com/frogobox/frogo-build-src/actions/workflows/detekt-analysis.yml)
+[![pages-build-deployment](https://github.com/frogobox/frogo-build-src/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/frogobox/frogo-build-src/actions/workflows/pages/pages-build-deployment)
 
 - Library for contant data buildSrc
 - Library for calling contant variable for build.gradle.kts
@@ -17,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.4
+    $version_release = 1.0.5
 
 What's New??
 
@@ -39,7 +41,7 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.4")
+    implementation("com.github.frogobox:frogo-build-src:1.0.5")
 }
 ```
 
@@ -83,7 +85,7 @@ dependencies {
 ### Detail Version
 ```kotlin
 const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
-const val admobVersion = "4.1.9" // https://github.com/amirisback/frogo-admob
+const val admobVersion = "4.2.0" // https://github.com/amirisback/frogo-admob
 const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
 const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
 
