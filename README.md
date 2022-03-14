@@ -25,7 +25,7 @@ What's New??
 
 ```kotlin
 const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
-const val admobVersion = "4.2.2" // https://github.com/amirisback/frogo-admob
+const val admobVersion = "4.2.3" // https://github.com/amirisback/frogo-admob
 const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
 const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
 
