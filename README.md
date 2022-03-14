@@ -23,6 +23,14 @@ This Is Latest Release
 
 What's New??
 
+[![FrogoRecyclerView](https://jitpack.io/v/amirisback/frogo-recycler-view.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-recycler-view)
+[![FrogoAdmob](https://jitpack.io/v/amirisback/frogo-admob.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-admob)
+[![FrogoLog](https://jitpack.io/v/amirisback/frogo-log.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-log)
+[![FrogoNotification](https://jitpack.io/v/amirisback/frogo-notification.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-notification)
+[![FrogoSDK](https://jitpack.io/v/frogobox/frogo-sdk.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-sdk)
+[![FrogoUI](https://jitpack.io/v/frogobox/frogo-ui.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-ui)
+[![FrogoConsumeApi](https://jitpack.io/v/frogobox/frogo-consume-api.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-consume-api)
+
 ```kotlin
 const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
 const val admobVersion = "4.2.3" // https://github.com/amirisback/frogo-admob
