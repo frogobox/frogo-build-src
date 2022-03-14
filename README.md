@@ -23,7 +23,16 @@ This Is Latest Release
 
 What's New??
 
-    * Available for buildSrc Kotlin DSL *
+```kotlin
+const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
+const val admobVersion = "4.2.2" // https://github.com/amirisback/frogo-admob
+const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
+const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
+
+const val sdkVersion = "0.0.1-beta09" // https://github.com/frogobox/frogo-sdk
+const val uiVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-ui
+const val consumeApiVersion = "2.0.2" // https://github.com/frogobox/frogo-consume-api
+```
 
 ## Download this project
 
@@ -81,18 +90,6 @@ dependencies {
 
 ### Screen Shoot (Step 3. build.gradle.kts app)
 ![](docs/image/ss_step_3.png?raw=true)
-
-### Detail Version
-```kotlin
-const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
-const val admobVersion = "4.2.2" // https://github.com/amirisback/frogo-admob
-const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
-const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
-
-const val sdkVersion = "0.0.1-beta09" // https://github.com/frogobox/frogo-sdk
-const val uiVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-ui
-const val consumeApiVersion = "2.0.1" // https://github.com/frogobox/frogo-consume-api
-```
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
