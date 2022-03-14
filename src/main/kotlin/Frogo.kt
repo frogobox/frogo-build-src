@@ -20,7 +20,7 @@ object Frogo {
 
     const val sdkVersion = "0.0.1-beta09" // https://github.com/frogobox/frogo-sdk
     const val uiVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-ui
-    const val consumeApiVersion = "2.0.1" // https://github.com/frogobox/frogo-consume-api
+    const val consumeApiVersion = "2.0.2" // https://github.com/frogobox/frogo-consume-api
 
     // -----------------------------------------------------------------------------------------------------------------
 
