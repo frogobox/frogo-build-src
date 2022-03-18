@@ -19,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.9
+    $version_release = 1.1.0
 
 What's New??
 
@@ -33,13 +33,13 @@ What's New??
 
 ```kotlin
 const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
-const val admobVersion = "4.2.3" // https://github.com/amirisback/frogo-admob
+const val admobVersion = "4.2.4" // https://github.com/amirisback/frogo-admob
 const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
 const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
 
-const val sdkVersion = "0.0.1-beta09" // https://github.com/frogobox/frogo-sdk
+const val sdkVersion = "0.0.1-beta10" // https://github.com/frogobox/frogo-sdk
 const val uiVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-ui
-const val consumeApiVersion = "2.0.2" // https://github.com/frogobox/frogo-consume-api
+const val consumeApiVersion = "2.0.3" // https://github.com/frogobox/frogo-consume-api
 const val animationVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-animation
 ```
 
@@ -59,7 +59,7 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.9")
+    implementation("com.github.frogobox:frogo-build-src:1.1.0")
 }
 ```
 
