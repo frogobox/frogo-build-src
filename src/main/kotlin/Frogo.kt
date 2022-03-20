@@ -18,7 +18,7 @@ object Frogo {
     const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
     const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
 
-    const val uiVersion = "0.0.1-beta06" // https://github.com/frogobox/frogo-ui
+    const val uiVersion = "0.0.1-beta07" // https://github.com/frogobox/frogo-ui
     const val sdkVersion = "0.0.2-beta01" // https://github.com/frogobox/frogo-sdk
     const val animationVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-animation
     const val consumeApiVersion = "2.0.4" // https://github.com/frogobox/frogo-consume-api
