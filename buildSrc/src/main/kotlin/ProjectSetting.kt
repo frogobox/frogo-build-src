@@ -25,11 +25,11 @@ object ProjectSetting {
 
     const val VERSION_MAJOR = 1
     const val VERSION_MINOR = 1
-    const val VERSION_PATCH = 7
+    const val VERSION_PATCH = 8
 
     // -----------------------------------------------------------------------------------------------------------------
 
-    const val KOTLIN_VERSION = "1.5.21"
+    const val KOTLIN_VERSION = "1.6.10"
 
     // -----------------------------------------------------------------------------------------------------------------
 

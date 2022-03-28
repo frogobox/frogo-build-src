@@ -19,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.1.7
+    $version_release = 1.1.8-beta02
 
 What's New??
 
@@ -60,7 +60,7 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.1.7")
+    implementation("com.github.frogobox:frogo-build-src:1.1.8-beta02")
 }
 ```
 
