@@ -19,29 +19,27 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.1.8-beta02
+    $version_release = 1.1.9
 
 What's New??
 
 [![FrogoRecyclerView](https://jitpack.io/v/amirisback/frogo-recycler-view.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-recycler-view)
 [![FrogoAdmob](https://jitpack.io/v/amirisback/frogo-admob.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-admob)
-[![FrogoLog](https://jitpack.io/v/amirisback/frogo-log.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-log)
-[![FrogoNotification](https://jitpack.io/v/amirisback/frogo-notification.svg?style=flat-square)](https://jitpack.io/#amirisback/frogo-notification)
 [![FrogoSDK](https://jitpack.io/v/frogobox/frogo-sdk.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-sdk)
 [![FrogoUI](https://jitpack.io/v/frogobox/frogo-ui.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-ui)
 [![FrogoConsumeApi](https://jitpack.io/v/frogobox/frogo-consume-api.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-consume-api)
 
 ```kotlin
-const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
-const val admobVersion = "4.2.9" // https://github.com/amirisback/frogo-admob
-const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
-const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
+const val recyclerViewVersion = "4.0.7" // https://github.com/amirisback/frogo-recycler-view
+const val admobVersion = "4.3.1" // https://github.com/amirisback/frogo-admob
+const val uiVersion = "0.0.1" // https://github.com/frogobox/frogo-ui
+const val sdkVersion = "0.0.2" // https://github.com/frogobox/frogo-sdk
+const val consumeApiVersion = "2.0.5" // https://github.com/frogobox/frogo-consume-api
 
-const val uiVersion = "0.0.1-beta07" // https://github.com/frogobox/frogo-ui
-const val sdkVersion = "0.0.2-beta01" // https://github.com/frogobox/frogo-sdk
-const val animationVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-animation
-const val consumeApiVersion = "2.0.4" // https://github.com/frogobox/frogo-consume-api
-const val loadingIndicatorViewVersion = "0.0.1-beta01" // https://github.com/frogobox/frogo-loading-indicator-view
+const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log [DEPRECATED]
+const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification [DEPRECATED]
+const val animationVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-animation [DEPRECATED]
+const val loadingIndicatorViewVersion = "0.0.1-beta01" // https://github.com/frogobox/frogo-loading-indicator-view [DEPRECATED]
 ```
 
 ## Download this project
@@ -60,7 +58,7 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.1.8-beta02")
+    implementation("com.github.frogobox:frogo-build-src:1.1.9")
 }
 ```
 

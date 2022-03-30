@@ -13,16 +13,16 @@
 
 object Frogo {
 
-    const val recyclerViewVersion = "4.0.5" // https://github.com/amirisback/frogo-recycler-view
-    const val admobVersion = "4.2.9" // https://github.com/amirisback/frogo-admob
-    const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log
-    const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification
+    const val recyclerViewVersion = "4.0.7" // https://github.com/amirisback/frogo-recycler-view
+    const val admobVersion = "4.3.1" // https://github.com/amirisback/frogo-admob
+    const val uiVersion = "0.0.1" // https://github.com/frogobox/frogo-ui
+    const val sdkVersion = "0.0.2" // https://github.com/frogobox/frogo-sdk
+    const val consumeApiVersion = "2.0.5" // https://github.com/frogobox/frogo-consume-api
 
-    const val uiVersion = "0.0.1-beta07" // https://github.com/frogobox/frogo-ui
-    const val sdkVersion = "0.0.2-beta01" // https://github.com/frogobox/frogo-sdk
-    const val animationVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-animation
-    const val consumeApiVersion = "2.0.4" // https://github.com/frogobox/frogo-consume-api
-    const val loadingIndicatorViewVersion = "0.0.1-beta01" // https://github.com/frogobox/frogo-loading-indicator-view
+    const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log [DEPRECATED]
+    const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification [DEPRECATED]
+    const val animationVersion = "0.0.1-beta05" // https://github.com/frogobox/frogo-animation [DEPRECATED]
+    const val loadingIndicatorViewVersion = "0.0.1-beta01" // https://github.com/frogobox/frogo-loading-indicator-view [DEPRECATED]
 
     // -----------------------------------------------------------------------------------------------------------------
 
@@ -56,6 +56,11 @@ object Frogo {
     const val sdkCore = "com.github.frogobox.frogo-sdk:frogocoresdk:$sdkVersion"
     fun sdkCore(version: String): String {
         return "com.github.frogobox.frogo-sdk:frogocoresdk:$version"
+    }
+
+    const val sdkLog = "com.github.frogobox.frogo-sdk:frogolog:$sdkVersion"
+    fun sdkLog(version: String): String {
+        return "com.github.frogobox.frogo-sdk:frogolog:$version"
     }
 
     const val ui = "com.github.frogobox:frogo-ui:$uiVersion"
