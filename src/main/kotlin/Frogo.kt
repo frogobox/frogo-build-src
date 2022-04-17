@@ -13,11 +13,11 @@
 
 object Frogo {
 
-    const val recyclerViewVersion = "4.1.1" // https://github.com/amirisback/frogo-recycler-view
-    const val admobVersion = "4.3.5" // https://github.com/amirisback/frogo-admob
+    const val recyclerViewVersion = "4.1.3" // https://github.com/amirisback/frogo-recycler-view
+    const val admobVersion = "4.3.6" // https://github.com/amirisback/frogo-admob
     const val uiVersion = "1.0.0" // https://github.com/frogobox/frogo-ui
-    const val sdkVersion = "1.0.2" // https://github.com/frogobox/frogo-sdk
-    const val consumeApiVersion = "2.2.1" // https://github.com/frogobox/frogo-consume-api
+    const val sdkVersion = "1.0.3" // https://github.com/frogobox/frogo-sdk
+    const val consumeApiVersion = "2.2.2" // https://github.com/frogobox/frogo-consume-api
 
     const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log [DEPRECATED]
     const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification [DEPRECATED]
