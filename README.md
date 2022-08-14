@@ -19,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.3.3
+    $version_release = 1.3.4
 
 What's New??
 
@@ -30,11 +30,11 @@ What's New??
 [![FrogoConsumeApi](https://jitpack.io/v/frogobox/frogo-consume-api.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-consume-api)
 
 ```kotlin
-const val recyclerViewVersion = "4.3.0" // https://github.com/amirisback/frogo-recycler-view
-const val admobVersion = "5.1.1" // https://github.com/amirisback/frogo-admob
-const val uiVersion = "1.0.8" // https://github.com/frogobox/frogo-ui
-const val sdkVersion = "2.0.7" // https://github.com/frogobox/frogo-sdk
-const val consumeApiVersion = "2.3.9" // https://github.com/frogobox/frogo-consume-api
+const val recyclerViewVersion = "4.3.1" // https://github.com/amirisback/frogo-recycler-view
+const val admobVersion = "5.1.2" // https://github.com/amirisback/frogo-admob
+const val uiVersion = "1.0.9" // https://github.com/frogobox/frogo-ui
+const val sdkVersion = "2.0.8" // https://github.com/frogobox/frogo-sdk
+const val consumeApiVersion = "2.4.0" // https://github.com/frogobox/frogo-consume-api
 
 const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log [DEPRECATED]
 const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification [DEPRECATED]
@@ -59,7 +59,7 @@ repositories {
 ```kotlin
 dependencies {
     // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.3.3")
+    implementation("com.github.frogobox:frogo-build-src:1.3.4")
 }
 ```
 
