@@ -21,7 +21,7 @@ object FrogoProjectSetting {
     // -----------------------------------------------------------------------------------------------------------------
 
     const val PROJECT_MIN_SDK = 21
-    const val PROJECT_COMPILE_SDK = 32
+    const val PROJECT_COMPILE_SDK = 33
     const val PROJECT_TARGET_SDK = PROJECT_COMPILE_SDK
 
     const val FROGO_PLAYSTORE_STORE_FILE = "frogoboxmedia.jks"
