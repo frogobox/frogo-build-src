@@ -18,6 +18,7 @@ object Frogo {
     const val uiVersion = "1.1.5" // https://github.com/frogobox/frogo-ui
     const val sdkVersion = "2.1.7" // https://github.com/frogobox/frogo-sdk
     const val consumeApiVersion = "2.4.6" // https://github.com/frogobox/frogo-consume-api
+    const val keyboardVersion = "1.1.3" // https://github.com/amirisback/keyboard
 
     const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log [DEPRECATED]
     const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification [DEPRECATED]
@@ -44,6 +45,11 @@ object Frogo {
     const val notification = "com.github.amirisback:frogo-notification:$notificationVersion"
     fun notification(version: String): String {
         return "com.github.amirisback:frogo-notification:$version"
+    }
+
+    const val keyboard = "com.github.amirisback:keyboard:$keyboardVersion"
+    fun keyboard(version: String): String {
+        return "com.github.amirisback:keyboard:$version"
     }
 
     // -----------------------------------------------------------------------------------------------------------------
