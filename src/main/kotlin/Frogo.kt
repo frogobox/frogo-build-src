@@ -14,7 +14,7 @@
 object Frogo {
 
     const val recyclerViewVersion = "4.3.5" // https://github.com/amirisback/frogo-recycler-view
-    const val admobVersion = "5.3.0" // https://github.com/amirisback/frogo-admob
+    const val admobVersion = "5.3.1" // https://github.com/amirisback/frogo-admob
     const val uiVersion = "1.1.8" // https://github.com/frogobox/frogo-ui
     const val sdkVersion = "2.2.1" // https://github.com/frogobox/frogo-sdk
     const val consumeApiVersion = "2.4.9" // https://github.com/frogobox/frogo-consume-api
