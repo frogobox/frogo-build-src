@@ -14,11 +14,11 @@
 object Frogo {
 
     const val recyclerViewVersion = "4.3.5" // https://github.com/amirisback/frogo-recycler-view
-    const val admobVersion = "5.2.3" // https://github.com/amirisback/frogo-admob
-    const val uiVersion = "1.1.6" // https://github.com/frogobox/frogo-ui
-    const val sdkVersion = "2.1.8" // https://github.com/frogobox/frogo-sdk
-    const val consumeApiVersion = "2.4.7" // https://github.com/frogobox/frogo-consume-api
-    const val keyboardVersion = "1.1.3" // https://github.com/amirisback/keyboard
+    const val admobVersion = "5.3.0" // https://github.com/amirisback/frogo-admob
+    const val uiVersion = "1.1.8" // https://github.com/frogobox/frogo-ui
+    const val sdkVersion = "2.2.1" // https://github.com/frogobox/frogo-sdk
+    const val consumeApiVersion = "2.4.9" // https://github.com/frogobox/frogo-consume-api
+    const val keyboardVersion = "1.1.4" // https://github.com/amirisback/keyboard
 
     const val logVersion = "2.0.9" // https://github.com/amirisback/frogo-log [DEPRECATED]
     const val notificationVersion = "1.1.1" // https://github.com/amirisback/frogo-notification [DEPRECATED]
@@ -59,14 +59,9 @@ object Frogo {
         return "com.github.frogobox:frogo-sdk:$version"
     }
 
-    const val sdkCore = "com.github.frogobox.frogo-sdk:frogocoresdk:$sdkVersion"
+    const val sdkCore = "com.github.frogobox.frogo-sdk:core-sdk:$sdkVersion"
     fun sdkCore(version: String): String {
-        return "com.github.frogobox.frogo-sdk:frogocoresdk:$version"
-    }
-
-    const val sdkLog = "com.github.frogobox.frogo-sdk:frogolog:$sdkVersion"
-    fun sdkLog(version: String): String {
-        return "com.github.frogobox.frogo-sdk:frogolog:$version"
+        return "com.github.frogobox.frogo-sdk:core-sdk:$version"
     }
 
     const val ui = "com.github.frogobox:frogo-ui:$uiVersion"
@@ -74,9 +69,9 @@ object Frogo {
         return "com.github.frogobox:frogo-ui:$version"
     }
 
-    const val uiCore = "com.github.frogobox.frogo-ui:frogocoreui:$uiVersion"
+    const val uiCore = "com.github.frogobox.frogo-ui:core-ui:$uiVersion"
     fun uiCore(version: String): String {
-        return "com.github.frogobox.frogo-ui:frogocoreui:$version"
+        return "com.github.frogobox.frogo-ui:core-ui:$version"
     }
 
     const val consumeApi = "com.github.frogobox:frogo-consume-api:$consumeApiVersion"
@@ -84,9 +79,9 @@ object Frogo {
         return "com.github.frogobox:frogo-consume-api:$version"
     }
 
-    const val consumeApiCore = "com.github.frogobox.frogo-consume-api:frogocoreconsumeapi:$consumeApiVersion"
+    const val consumeApiCore = "com.github.frogobox.frogo-consume-api:core-api:$consumeApiVersion"
     fun consumeApiCore(version: String): String {
-        return "com.github.frogobox.frogo-consume-api:frogocoreconsumeapi:$version"
+        return "com.github.frogobox.frogo-consume-api:core-api:$version"
     }
 
     const val animation = "com.github.frogobox:frogo-animation:$animationVersion"
